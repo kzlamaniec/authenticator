@@ -11,4 +11,4 @@ puts
 puts "This program will take input from the user and compare password"
 puts "If password is correct, you will get back the user object"
 
-#Hash, Array, Branching, while loops, and designing program execution flow
+#Hash, Array, Branching, while loops, and designing program execution flow  
