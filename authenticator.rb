@@ -7,12 +7,12 @@ users = [
         ]
 # authentication method to check and verify if username/password combination exists
 def auth_user(username, password, list_of_users)
-    list_of_users.each do |user_record|
-       if user_record[:username] == username && user_record[:password] == password
-          return user_record
-        end
+  list_of_users.each do |user_record|
+    if user_record[:username] == username && user_record[:password] == password
+      return user_record
     end
-    "Credentials were not correct"
+  end
+  "Credentials were not correct"
 end
 
 # program execution flow
